@@ -1,6 +1,6 @@
 function comment() {
   var comment = $('#comment').val();
-  $("#user_comment").append(comment + " ");
+  $("#user_comment").text(comment);
 }
 
 function handleKey(event) {
