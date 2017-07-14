@@ -11,9 +11,9 @@ function handleKey(event) {
 }
 
 function animateHeading() {
-  for (var i = 0; i < 3; i++) {
-    $(".animated_heading h2").animate({fontSize: "35px"}, 1000);
-    $(".animated_heading h2").animate({fontSize: "25px"}, 1000);
+  for (var i = 0; i < 1; i++) {
+    $(".animated_heading h2").animate({fontSize: "35px"}, 900);
+    $(".animated_heading h2").animate({fontSize: "25px"}, 900);
   }
 }
 

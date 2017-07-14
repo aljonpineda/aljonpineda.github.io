@@ -3,6 +3,10 @@ h1, h2 {
   text-align: center;
 }
 
+.align_center {
+  text-align: center;
+}
+
 body {
   font-family: Arial;
   background-color: lightblue;
@@ -34,6 +38,10 @@ body {
   padding: 1px;
   box-shadow: 3px 3px 3px #888888;
   background-color: white;
+}
+
+.list p {
+  padding: 10px;
 }
 
 .animated_heading {
