@@ -12,7 +12,7 @@ function handleKey(event) {
 
 function animateHeading() {
   for (var i = 0; i < 3; i++) {
-    $(".animated_heading h2").animate({fontSize: "40px"}, 1000);
+    $(".animated_heading h2").animate({fontSize: "35px"}, 1000);
     $(".animated_heading h2").animate({fontSize: "25px"}, 1000);
   }
 }
