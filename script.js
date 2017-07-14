@@ -25,20 +25,12 @@ function hideParagraph() {
   $("p").slideUp();
 }
 
-function showBooksList() {
-  $(".books_list").slideDown();
+function showList() {
+  $(".list").slideDown();
 }
 
-function hideBooksList() {
-  $(".books_list").slideUp();
-}
-
-function showMoviesList() {
-  $(".movies_list").slideDown();
-}
-
-function hideMoviesList() {
-  $(".movies_list").slideUp();
+function hideList() {
+  $(".list").slideUp();
 }
 
 function setup() {
@@ -48,10 +40,8 @@ function setup() {
 
   $("#show_paragraph_button").click(showParagraph);
   $("#hide_paragraph_button").click(hideParagraph);
-  $("#show_list_button").click(showBooksList);
-  $("#hide_list_button").click(hideBooksList);
-  $("#show_button").click(showMoviesList);
-  $("#hide_button").click(hideMoviesList);
+  $("#show_list_button").click(showList);
+  $("#hide_list_button").click(hideList);
 }
 
 $(document).ready(setup)
