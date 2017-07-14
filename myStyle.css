@@ -20,21 +20,25 @@ body {
 }
 
 #my_pic {
-  border: 1px solid #3d3d3d;
+  border: 1px solid #8c8c8c;
   padding: 10px;
   box-shadow: 3px 3px 3px #888888;
   background-color: white;
 }
 
 .boxed_text {
-  border: 1px solid #3d3d3d;
+  border: 1px solid #8c8c8c;
   padding: 10px;
   box-shadow: 3px 3px 3px #888888;
   background-color: white;
 }
 
-.list {
+.mouse_enter {
   border: 1px solid #3d3d3d;
+}
+
+.list {
+  border: 1px solid #8c8c8c;
   padding: 1px;
   box-shadow: 3px 3px 3px #888888;
   background-color: white;
