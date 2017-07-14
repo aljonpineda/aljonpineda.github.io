@@ -1,22 +1,41 @@
 h1, h2 {
-  color: red;
+  color: blue;
   text-align: center;
 }
 
 body {
   font-family: Arial;
-  background-color: orange;
-  background-image: url('http://www.no-zaku.com/background/wp-content/uploads/sites/9/2016/11/Fancy-Good-Background-Images-For-Websites.jpg');
+  background-color: lightblue;
+  /* background-image: url('http://www.no-zaku.com/background/wp-content/uploads/sites/9/2016/11/Fancy-Good-Background-Images-For-Websites.jpg'); */
   margin-left: 15%;
   margin-right: 15%;
 }
 
-.centerImage {
+.center_image {
   text-align: center;
 }
 
-.boxed_text {
-  border: 3px solid black;
+#my_pic {
+  border: 1px solid #3d3d3d;
   padding: 10px;
-  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 3px 3px 3px #888888;
+  background-color: white;
+}
+
+.boxed_text {
+  border: 1px solid #3d3d3d;
+  padding: 10px;
+  box-shadow: 3px 3px 3px #888888;
+  background-color: white;
+}
+
+.books_list, .movies_list {
+  border: 1px solid #3d3d3d;
+  padding: 1px;
+  box-shadow: 3px 3px 3px #888888;
+  background-color: white;
+}
+
+.animated_heading {
+  height: 50px;
 }

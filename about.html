@@ -3,13 +3,18 @@
 <head>
   <title>About Me</title>
   <link rel="stylesheet" href="myStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
-<div><h2>About Me</h2></div>
+<div class="animated_heading"><h2>About Me</h2></div>
 
-<div class="centerImage"><img src="https://lh3.googleusercontent.com/-aW9MvmilETc/AAAAAAAAAAI/AAAAAAAAAFY/Tgt8SQIC_hM/s120-p-rw-no/photo.jpg"
+<div class="center_image"><img src="https://lh3.googleusercontent.com/-aW9MvmilETc/AAAAAAAAAAI/AAAAAAAAAFY/Tgt8SQIC_hM/s120-p-rw-no/photo.jpg"
  width="80" height="80" alt="Photo of Aljon Pineda" id="my_pic"/></div>
+
+<button id="show_paragraph_button">Show</button>
+<button id="hide_paragraph_button">Hide</button>
 
 <p class="boxed_text">
   Hello! My name is Aljon Pineda. I am 17 years old.
@@ -19,15 +24,27 @@
   I will attend Georgia Tech this fall.
 </p>
 
+<h2>My Favorite Movies</h2>
+<button id="show_button">Show</button>
+<button id="hide_button">Hide</button>
+<br>
+<br>
+<div class="movies_list">
+  <ol>
+    <li>Mission Impossible</li>
+    <li>Wonder Woman</li>
+    <li>Star Wars</li>
+    <li>Lord of the Rings</li>
+  </ol>
+</div>
+
+<h3>Comments</h3>
+
 <form name="userComment">
   <label>Leave a comment: </label><br>
   <textarea rows="4" cols="50" id="comment"></textarea><br>
   <input type="button" id="submit_button" value="Submit"/>
 </form>
 
-<h6 id="user_comment"></h6>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
