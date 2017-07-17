@@ -27,11 +27,11 @@ function hideParagraph() {
 }
 
 function showList() {
-  $(".list").slideDown();
+  $(this).nextAll(".list").first().slideDown();
 }
 
 function hideList() {
-  $(".list").slideUp();
+  $(this).nextAll(".list").first().slideUp();
 }
 
 function mouseEnter() {
@@ -50,8 +50,8 @@ function setup() {
 
   $("#show_paragraph_button").click(showParagraph);
   $("#hide_paragraph_button").click(hideParagraph);
-  $("#show_list_button").click(showList);
-  $("#hide_list_button").click(hideList);
+  $(".show_list_button").click(showList);
+  $(".hide_list_button").click(hideList);
 
   $(".boxed_text").mouseenter(mouseEnter);
   $(".boxed_text").mouseleave(mouseLeave);

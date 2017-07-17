@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-#my_pic {
+img {
   border: 1px solid #8c8c8c;
   padding: 10px;
   box-shadow: 3px 3px 3px #888888;
@@ -31,10 +31,6 @@ body {
   padding: 10px;
   box-shadow: 3px 3px 3px #888888;
   background-color: white;
-}
-
-.mouse_enter {
-  border: 1px solid #3d3d3d;
 }
 
 .list {
@@ -50,4 +46,8 @@ body {
 
 .animated_heading {
   height: 50px;
+}
+
+.mouse_enter {
+  border: 1px solid #3d3d3d;
 }

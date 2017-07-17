@@ -27,8 +27,8 @@ of writing my own detective fiction book.
 </p>
 
 <h3 class="align_center">Books I've Read</h3>
-<button id="show_list_button">Show</button>
-<button id="hide_list_button">Hide</button>
+<button class="show_list_button">Show</button>
+<button class="hide_list_button">Hide</button>
 <br>
 <br>
 <div class="list">
@@ -45,11 +45,16 @@ of writing my own detective fiction book.
 
 <h3>Comments</h3>
 
-<form name="userComment">
+<form name="user_comment">
+  <label>Name: </label>
+  <input type="text" id="username"/><br>
   <label>Leave a comment: </label><br>
   <textarea rows="4" cols="50" id="comment"></textarea><br>
   <input type="button" id="submit_button" value="Submit"/>
 </form>
+
+<div class="comments_area">
+</div>
 
 </body>
 </html>
