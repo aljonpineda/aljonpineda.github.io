@@ -1,7 +1,7 @@
 function comment() {
-  debugger;
   var username = $("#username").val();
   var comment = $("#comment").val();
+
   $(".comments_area").append("<br>", username, " posted: ");
   $(".comments_area").append(comment);
 }
@@ -15,7 +15,10 @@ function handleKey(event) {
 
 function animateHeading() {
   $(".animated_heading h2").animate({fontSize: "35px"}, 800);
-  $(".animated_heading h2").animate({fontSize: "25px"}, 800);
+  $(".animated_heading h2").animate({fontSize: "24px"}, 800);
+
+  $(".animated_heading h1").animate({fontSize: "45px"}, 800);
+  $(".animated_heading h1").animate({fontSize: "32px"}, 800);
 }
 
 function showParagraph() {
