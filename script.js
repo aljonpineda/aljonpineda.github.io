@@ -1,5 +1,9 @@
 function comment() {
+  debugger;
+  var username = $("#username").val();
   var comment = $("#comment").val();
+  $(".comments_area").append("<br>", username, " posted: ");
+  $(".comments_area").append(comment);
 }
 
 function handleKey(event) {
@@ -10,8 +14,8 @@ function handleKey(event) {
 }
 
 function animateHeading() {
-  $(".animated_heading h2").animate({fontSize: "35px"}, 900);
-  $(".animated_heading h2").animate({fontSize: "25px"}, 900);
+  $(".animated_heading h2").animate({fontSize: "35px"}, 800);
+  $(".animated_heading h2").animate({fontSize: "25px"}, 800);
 }
 
 function showParagraph() {
@@ -41,6 +45,7 @@ function mouseLeave() {
 function setup() {
   $("#submit_button").click(comment);
   $("#comment").on("keypress", handleKey);
+
   animateHeading();
 
   $("#show_paragraph_button").click(showParagraph);
